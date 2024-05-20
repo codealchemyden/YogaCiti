@@ -251,15 +251,35 @@ textarea {
 .card-body {
   min-height: 25rem;
 }
-/*Footer*/
-.footer h2,
-.footer h3 {
+/*contact*/
+.contact h2,
+.contact h3 {
   text-shadow: -3px 4px 5px #000000;
 }
-.footer-form {
+.contact-form {
   border: 3px solid #66f40c;
   border-radius: 2rem;
   background: #66f40c;
   background: -webkit-gradient(linear, left bottom, left top, from(rgba(102, 244, 12, 0.40108543)), to(#0084d9));
   background: linear-gradient(0deg, rgba(102, 244, 12, 0.40108543) 0%, #0084d9 100%);
+}
+/*footer*/
+.footer {
+  background: #0084d9;
+  background: -webkit-gradient(linear, left top, right top, from(#0084d9), color-stop(48%, #00c9d9), to(#0084d9));
+  background: linear-gradient(90deg, #0084d9 0%, #00c9d9 48%, #0084d9 100%);
+}
+.footer-icon {
+  height: 4rem;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+.footer-icon img {
+  height: 100%;
+  -webkit-box-shadow: -3px 4px 5px #000000;
+          box-shadow: -3px 4px 5px #000000;
+}
+.footer-icon img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }

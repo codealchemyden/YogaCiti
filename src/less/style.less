@@ -311,13 +311,16 @@ textarea {
 	min-height: 25rem;
 }
 
-/*Footer*/
-.footer {
-	h2, h3{
+/*contact*/
+.contact {
+
+	h2,
+	h3 {
 		text-shadow: -3px 4px 5px black;
 	}
-	&-form{
-		border:3px solid @bg-primary;
+
+	&-form {
+		border: 3px solid @bg-primary;
 		border-radius: 2rem;
 		background: rgb(102, 244, 12);
 		background: linear-gradient(0deg,
@@ -325,4 +328,27 @@ textarea {
 				rgba(0, 132, 217, 1) 100%);
 	}
 
+}
+
+/*footer*/
+.footer {
+	background: rgb(0, 132, 217);
+	background: linear-gradient(90deg,
+			rgba(0, 132, 217, 1) 0%,
+			rgba(0, 201, 217, 1) 48%,
+			rgba(0, 132, 217, 1) 100%);
+
+	&-icon {
+		height: 4rem;
+		transition: 2s;
+
+		img {
+			height: 100%;
+			box-shadow: -3px 4px 5px black;
+
+			&:hover {
+				transform: scale(1.1);
+			}
+		}
+	}
 }
