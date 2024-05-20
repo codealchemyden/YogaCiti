@@ -36,6 +36,7 @@ h3,
 p,
 a {
   color: #fff;
+  text-shadow: -3px 4px 5px #000000;
 }
 h1 {
   margin-bottom: 4rem;
@@ -251,6 +252,10 @@ textarea {
   min-height: 25rem;
 }
 /*Footer*/
+.footer h2,
+.footer h3 {
+  text-shadow: -3px 4px 5px #000000;
+}
 .footer-form {
   border: 3px solid #66f40c;
   border-radius: 2rem;
