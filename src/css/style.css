@@ -237,7 +237,16 @@ textarea {
   background-size: 70%;
 }
 /*elegir*/
+.elegir h3 {
+  min-height: 7rem;
+  color: #ffffff;
+}
 .elegir-cards {
   min-height: 21rem;
-  background-color: #0084d9;
+  background: #66f40c;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(102, 244, 12, 0.40108543)), to(#0084d9));
+  background: linear-gradient(0deg, rgba(102, 244, 12, 0.40108543) 0%, #0084d9 100%);
+}
+.card-body {
+  min-height: 25rem;
 }
