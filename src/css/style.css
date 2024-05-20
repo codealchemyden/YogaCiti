@@ -250,3 +250,11 @@ textarea {
 .card-body {
   min-height: 25rem;
 }
+/*Footer*/
+.footer-form {
+  border: 3px solid #66f40c;
+  border-radius: 2rem;
+  background: #66f40c;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(102, 244, 12, 0.40108543)), to(#0084d9));
+  background: linear-gradient(0deg, rgba(102, 244, 12, 0.40108543) 0%, #0084d9 100%);
+}

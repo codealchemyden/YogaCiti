@@ -1,318 +1,301 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>YogaUnity</title>
-    <link rel="stylesheet" href="./src/css/bootstrap.min.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,700&display=swap"
-      rel="stylesheet"
-    />
-		<link rel="stylesheet" href="./src/css/animate.css" />
-    <link rel="stylesheet" href="./src/css/style.css" />
-  </head>
-  <body>
-    <div class="wrap">
-      <div class="scroll">
-        <!-- navbar -->
-        <nav
-          class="navbar navbar-expand-lg bg-body-tertiary fixed-top scrolled"
-        >
-          <div class="container">
-            <a class="navbar-brand logo" href="#">YogaCiti</a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div
-              class="navigation collapse navbar-collapse align-items-center"
-              id="navbarSupportedContent"
-            >
-              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a
-                    class="nav-link link-page active"
-                    aria-current="page"
-                    href="#"
-                    >Principal</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link link-page" href="#">Reuniones</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link link-page" href="#">Online</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link link-page" href="#">Másters</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link link-page" href="#">Рrograma</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link link-page" href="#">Opiniones</a>
-                </li>
-              </ul>
-              <button
-                class="button btn btn-success btn-lg"
-                type="submit"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
-              >
-                Consulta
-              </button>
-            </div>
-          </div>
-        </nav>
-        <section class="principal">
-          <div class="container">
-            <div class="principal-header">
-              <div class="row text-center">
-                <div class="col">
-                  <h1>Bienvenido a YogaCiti!</h1>
-                  <h2>
-                    ¡Encuentre armonía e inspiración en nuestras reuniones de
-                    yoga!
-                  </h2>
-                  <h3>
-                    YogaCiti es una plataforma en línea creada para quienes
-                    buscan personas afines en el mundo del yoga. Nuestro sitio
-                    une a yoguis de todos los niveles y orientaciones, brindando
-                    la oportunidad de compartir experiencias, aprender cosas
-                    nuevas y encontrar la armonía interior a través de prácticas
-                    conjuntas.
-                  </h3>
-                </div>
-              </div>
-            </div>
-					</section>
-						<section class="offer">
-							<div class="container">
-								<div class="section-header">
-									<h2>Qué ofrecemos:</h2>
-								</div>
-								<div class="features-slider">
-									<div
-										class="features-block wow animate__animated animate__fadeInUp"
-										data-wow-delay="0.1s"
-									>
-										<div class="features-img">
-											<picture>
-												<img
-													src="./src/img/offer/reuniones.png"
-													alt="reuniones"
-												/>
-											</picture>
-										</div>
-										<h3 class="features-block-title">Reuniones periódicas y retiros</h3>
-										<p class="features-block-subtitle">Participe en nuestras reuniones semanales y retiros especiales, celebrados tanto en línea como en lugares pintorescos de todo el mundo
-										</p>
-									</div>
-				
-									<div
-										class="features-block wow animate__animated animate__fadeInUp"
-										data-wow-delay="0.2s"
-									>
-										<div class="features-img">
-											<picture>
-												<img src="./src/img/offer/línea.png" alt="línea" />
-											</picture>
-										</div>
-										<h3 class="features-block-title">Clases y talleres en línea</h3>
-										<p class="features-block-subtitle">
-											Disfrute de una gran variedad de clases de yoga impartidas por instructores experimentados. Ofrecemos clases para todos los niveles, desde principiantes hasta practicantes avanzados.
-										</p>
-									</div>
-				
-									<div
-										class="features-block wow animate__animated animate__fadeInUp"
-										data-wow-delay="0.3s"
-									>
-										<div class="features-img">
-											<picture>
-												<img
-													src="./src/img/offer/comunidad.png"
-													alt="comunidad"
-												/>
-											</picture>
-										</div>
-										<h3 class="features-block-title">Una comunidad de yoguis con ideas afines</h3>
-										<p class="features-block-subtitle">
-											Únete a nuestra activa comunidad donde podrás conectar, compartir conocimientos e inspiración con otros yoguis
-										</p>
-									</div>
-				
-									<div
-										class="features-block wow animate__animated animate__fadeInUp"
-										data-wow-delay="0.4s"
-									>
-										<div class="features-img">
-											<picture>
-												<img src="./src/img/offer/recursos.png" alt="Recursos" />
-											</picture>
-										</div>
-										<h3 class="features-block-title">Recursos para el crecimiento personal</h3>
-										<p class="features-block-subtitle">
-											Acceso a una biblioteca de meditaciones, lecciones en vídeo y artículos que te ayudarán a profundizar en tu comprensión y práctica del yoga
-										</p>
-									</div>
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>YogaUnity</title>
+	<link rel="stylesheet" href="./src/css/bootstrap.min.css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,700&display=swap" rel="stylesheet" />
+	<link rel="stylesheet" href="./src/css/animate.css" />
+	<link rel="stylesheet" href="./src/css/style.css" />
+</head>
+
+<body>
+	<div class="wrap">
+		<div class="scroll">
+			<!-- navbar -->
+			<nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top scrolled">
+				<div class="container">
+					<a class="navbar-brand logo" href="#">YogaCiti</a>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+						data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+						aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="navigation collapse navbar-collapse align-items-center" id="navbarSupportedContent">
+						<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+							<li class="nav-item">
+								<a class="nav-link link-page active" aria-current="page" href="#">Principal</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link link-page" href="#">Reuniones</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link link-page" href="#">Online</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link link-page" href="#">Másters</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link link-page" href="#">Рrograma</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link link-page" href="#">Opiniones</a>
+							</li>
+						</ul>
+						<button class="button btn btn-success btn-lg" type="submit" data-bs-toggle="modal"
+							data-bs-target="#exampleModal">
+							Consulta
+						</button>
+					</div>
+				</div>
+			</nav>
+			<section class="principal">
+				<div class="container">
+					<div class="principal-header">
+						<div class="row text-center">
+							<div class="col">
+								<h1>Bienvenido a YogaCiti!</h1>
+								<h2>
+									¡Encuentre armonía e inspiración en nuestras reuniones de
+									yoga!
+								</h2>
+								<h3>
+									YogaCiti es una plataforma en línea creada para quienes
+									buscan personas afines en el mundo del yoga. Nuestro sitio
+									une a yoguis de todos los niveles y orientaciones, brindando
+									la oportunidad de compartir experiencias, aprender cosas
+									nuevas y encontrar la armonía interior a través de prácticas
+									conjuntas.
+								</h3>
+							</div>
+						</div>
+					</div>
+			</section>
+			<section class="offer">
+				<div class="container">
+					<div class="section-header">
+						<h2>Qué ofrecemos:</h2>
+					</div>
+					<div class="features-slider">
+						<div class="features-block wow animate__animated animate__fadeInUp" data-wow-delay="0.1s">
+							<div class="features-img">
+								<picture>
+									<img src="./src/img/offer/reuniones.png" alt="reuniones" />
+								</picture>
+							</div>
+							<h3 class="features-block-title">Reuniones periódicas y retiros</h3>
+							<p class="features-block-subtitle">Participe en nuestras reuniones semanales y retiros especiales,
+								celebrados tanto en línea como en lugares pintorescos de todo el mundo
+							</p>
+						</div>
+
+						<div class="features-block wow animate__animated animate__fadeInUp" data-wow-delay="0.2s">
+							<div class="features-img">
+								<picture>
+									<img src="./src/img/offer/línea.png" alt="línea" />
+								</picture>
+							</div>
+							<h3 class="features-block-title">Clases y talleres en línea</h3>
+							<p class="features-block-subtitle">
+								Disfrute de una gran variedad de clases de yoga impartidas por instructores experimentados. Ofrecemos
+								clases para todos los niveles, desde principiantes hasta practicantes avanzados.
+							</p>
+						</div>
+
+						<div class="features-block wow animate__animated animate__fadeInUp" data-wow-delay="0.3s">
+							<div class="features-img">
+								<picture>
+									<img src="./src/img/offer/comunidad.png" alt="comunidad" />
+								</picture>
+							</div>
+							<h3 class="features-block-title">Una comunidad de yoguis con ideas afines</h3>
+							<p class="features-block-subtitle">
+								Únete a nuestra activa comunidad donde podrás conectar, compartir conocimientos e inspiración con otros
+								yoguis
+							</p>
+						</div>
+
+						<div class="features-block wow animate__animated animate__fadeInUp" data-wow-delay="0.4s">
+							<div class="features-img">
+								<picture>
+									<img src="./src/img/offer/recursos.png" alt="Recursos" />
+								</picture>
+							</div>
+							<h3 class="features-block-title">Recursos para el crecimiento personal</h3>
+							<p class="features-block-subtitle">
+								Acceso a una biblioteca de meditaciones, lecciones en vídeo y artículos que te ayudarán a profundizar en
+								tu comprensión y práctica del yoga
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="elegir">
+				<div class="container">
+					<div class="section-header">
+						<h2>Por qué elegirnos</h2>
+					</div>
+
+					<div class="row">
+
+						<div class="col-xl-3 col-lg-6 ">
+							<div class="card mb-5 elegir-cards wow animate__animated animate__fadeInTopRight" data-wow-delay="0.1s">
+								<img src="./src/img/elegir/instructor.jpg" class="card-im p-3 g-top" alt="Instructores">
+								<div class="card-body">
+									<h3 class="card-title">Instructores profesionales:</h3>
+									<p class="card-text">Nuestros profesores son profesionales experimentados y titulados que se dedican a
+										su oficio.</p>
 								</div>
 							</div>
-						</section>
-						<section class="elegir">
-							<div class="container">
-							<div class="section-header">
-								<h2>Por qué elegirnos</h2>
+						</div>
+						<div class="col-xl-3 col-lg-6 ">
+							<div class="card mb-5 elegir-cards wow animate__animated animate__fadeInTopRight" data-wow-delay="0.2s">
+								<img src="./src/img/elegir/todos.jpg" class="card-img-top p-3 " alt="programas">
+								<div class="card-body">
+									<h3 class="card-title">Variedad de programas:</h3>
+									<p class="card-text">Desde hatha yoga hasta vinyasa y meditación, tenemos algo que ofrecer a todo el
+										mundo.</p>
+								</div>
 							</div>
+						</div>
 
-<div class="row">
-	
-		<div class="col-xl-3 col-lg-6 ">
-			<div class="card mb-5 elegir-cards wow animate__animated animate__fadeInTopRight"
-			data-wow-delay="0.1s">
-  <img src="./src/img/elegir/instructor.jpg" class="card-im p-3 g-top" alt="Instructores">
-  <div class="card-body">
-    <h3 class="card-title">Instructores profesionales:</h3>
-    <p class="card-text">Nuestros profesores son profesionales experimentados y titulados que se dedican a su oficio.</p>
-  </div>
-</div>
+
+						<div class="col-xl-3 col-lg-6">
+							<div class="card elegir-cards wow animate__animated animate__fadeInTopRight" data-wow-delay="0.3s">
+								<img src="./src/img/elegir/tiempo.jpg" class="card-img-top p-3" alt="Flexibilidad y comodidad:">
+								<div class="card-body">
+									<h3 class="card-title">Flexibilidad y comodidad:</h3>
+									<p class="card-text">Participe en las clases y actividades a la hora y en el lugar que más le
+										convengan.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-3 col-lg-6">
+							<div class="card elegir-cards wow animate__animated animate__fadeInTopRight" data-wow-delay="0.4s">
+								<img src="./src/img/elegir/soporte.jpg" class="card-img-top p-3" alt="Apoyo">
+								<div class="card-body">
+									<h3 class="card-title">Apoyo y motivación:</h3>
+									<p class="card-text">Creamos un ambiente de amistad y apoyo para que puedas alcanzar tus objetivos y
+										encontrar inspiración en cada paso del camino.</p>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+
+				</div>
+			</section>
+			<section class="footer">
+				<div class="container">
+
+					<div class="row">
+						<div class="col-xl-4 offset-xl-1">
+
+							<div class="footer-form p-5 text-center">
+								<form>
+									<h2 class="form-selection fs-1">Envía tus datos de contacto</h2>
+									<div class="mb-3">
+										<input type="text" class="form-control form-control-lg" id="exampleInputEmail1"
+											aria-describedby="emailHelp" placeholder="Su nombre" />
+									</div>
+									<div class="mb-3">
+										<input type="tel" class="form-control form-control-lg" id="exampleInputPassword1"
+											placeholder="Número de teléfono" />
+									</div>
+									<h2 class="form-selection fs-1">
+										Un mensajero que le conviene
+									</h2>
+									<div class="mb-3">
+										<select class="form-select form-select-lg" aria-label="Default select example">
+											<option value="1">WhatsApp</option>
+											<option value="2">Telegrama</option>
+											<option value="3">Viber</option>
+										</select>
+									</div>
+								</form>
+								<button type="submit" class="button button-forms btn btn-primary">
+									Dejar una solicitud
+								</button>
+							</div>
+						</div>
+						<div class="col-xl-6 offset-xl-1">
+							<div class=" mb-5 text-center">
+								<h2>¡Únete a nosotros!</h2>
+							</div>
+							<h3>Tanto si eres principiante como si llevas años practicando, en YogaCiti encontrarás todo lo que
+								necesitas para una práctica profunda y consciente. ¡Apúntate hoy mismo y descubre el mundo del yoga
+								con nosotros!</h3>
+						</div>
+					</div>
+
+
+				</div>
+			</section>
 		</div>
-		<div class="col-xl-3 col-lg-6 ">
-			<div class="card mb-5 elegir-cards wow animate__animated animate__fadeInTopRight"
-			data-wow-delay="0.2s">
-  <img src="./src/img/elegir/todos.jpg" class="card-img-top p-3 " alt="programas">
-  <div class="card-body">
-    <h3 class="card-title">Variedad de programas:</h3>
-    <p class="card-text">Desde hatha yoga hasta vinyasa y meditación, tenemos algo que ofrecer a todo el mundo.</p>
-  </div>
-</div>
+
+		<!-- Vertically centered modal -->
+		<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered">
+				<div class="modal-content">
+					<div class="modal-header">
+						<div class="header-block ms-auto">
+							<h2 class="text-center fs-1" id="exampleModalLabel">
+								¿Interesado?
+							</h2>
+							<h3 class="fs-1">Envía tus datos de contacto</h3>
+						</div>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+
+					<div class="modal-body text-center">
+						<form>
+							<div class="mb-3">
+								<input type="text" class="form-control form-control-lg" id="exampleInputEmail1"
+									aria-describedby="emailHelp" placeholder="Su nombre" />
+							</div>
+							<div class="mb-3">
+								<input type="tel" class="form-control form-control-lg" id="exampleInputPassword1"
+									placeholder="Número de teléfono" />
+							</div>
+							<h2 class="form-selection fs-1">
+								Un mensajero que le conviene
+							</h2>
+							<div class="mb-3">
+								<select class="form-select form-select-lg" aria-label="Default select example">
+									<option value="1">WhatsApp</option>
+									<option value="2">Telegrama</option>
+									<option value="3">Viber</option>
+								</select>
+							</div>
+						</form>
+						<button type="submit" class="button button-forms btn btn-primary">
+							Dejar una solicitud
+						</button>
+					</div>
+				</div>
+			</div>
 		</div>
+	</div>
+	</div>
 
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+	<script src="./src/script/popper.min.js"></script>
+	<script src="./src/script/bootstrap.min.js"></script>
+	<!--Подключаем стили слайдера-->
+	<link rel="stylesheet" href="./src/slick/slick.css" />
+	<link rel="stylesheet" href="./src/slick/slick-theme.css" />
+	<!--Подключаем скрипт слайдера-->
+	<script src="./src/slick/slick.min.js"></script>
+	<!--Подключаем скрипт WOW js-->
+	<script src="./src/script/wow.min.js"></script>
+	<script src="./src/script/jquery.maskedinput.min.js"></script>
+	<script src="./src/script/js.js"></script>
+</body>
 
-		<div class="col-xl-3 col-lg-6">
-			<div class="card elegir-cards wow animate__animated animate__fadeInTopRight"
-			data-wow-delay="0.3s">
-  <img src="./src/img/elegir/tiempo.jpg" class="card-img-top p-3" alt="Flexibilidad y comodidad:">
-  <div class="card-body">
-    <h3 class="card-title">Flexibilidad y comodidad:</h3>
-    <p class="card-text">Participe en las clases y actividades a la hora y en el lugar que más le convengan.</p>
-  </div>
-</div>
-		</div>
-		<div class="col-xl-3 col-lg-6">
-			<div class="card elegir-cards wow animate__animated animate__fadeInTopRight"
-			data-wow-delay="0.4s">
-  <img src="./src/img/elegir/soporte.jpg" class="card-img-top p-3" alt="Apoyo">
-  <div class="card-body">
-		<h3 class="card-title">Apoyo y motivación:</h3>
-    <p class="card-text">Creamos un ambiente de amistad y apoyo para que puedas alcanzar tus objetivos y encontrar inspiración en cada paso del camino.</p>
-  </div>
-</div>
-		</div>
-
-</div>
-
-
-</div>
-						</section>
-          </div>
-        
-        <!-- Vertically centered modal -->
-        <div
-          class="modal fade"
-          id="exampleModal"
-          tabindex="-1"
-          aria-labelledby="exampleModalLabel"
-          aria-hidden="true"
-        >
-          <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-              <div class="modal-header">
-                <div class="header-block ms-auto">
-                  <h2 class="text-center fs-1" id="exampleModalLabel">
-                    ¿Interesado?
-                  </h2>
-                  <h3 class="fs-1">Envía tus datos de contacto</h3>
-                </div>
-                <button
-                  type="button"
-                  class="btn-close"
-                  data-bs-dismiss="modal"
-                  aria-label="Close"
-                ></button>
-              </div>
-
-              <div class="modal-body text-center">
-                <form>
-                  <div class="mb-3">
-                    <input
-                      type="text"
-                      class="form-control form-control-lg"
-                      id="exampleInputEmail1"
-                      aria-describedby="emailHelp"
-                      placeholder="Su nombre"
-                    />
-                  </div>
-                  <div class="mb-3">
-                    <input
-                      type="tel"
-                      class="form-control form-control-lg"
-                      id="exampleInputPassword1"
-                      placeholder="Número de teléfono"
-                    />
-                  </div>
-                  <h2 class="form-selection fs-1">
-                    Un mensajero que le conviene
-                  </h2>
-                  <div class="mb-3">
-                    <select
-                      class="form-select form-select-lg"
-                      aria-label="Default select example"
-                    >
-                      <option value="1">WhatsApp</option>
-                      <option value="2">Telegrama</option>
-                      <option value="3">Viber</option>
-                    </select>
-                  </div>
-                </form>
-                <button
-                  type="submit"
-                  class="button button-forms btn btn-primary"
-                >
-                  Dejar una solicitud
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-    <script src="./src/script/popper.min.js"></script>
-    <script src="./src/script/bootstrap.min.js"></script>
-		    <!--Подключаем стили слайдера-->
-				<link rel="stylesheet" href="./src/slick/slick.css" />
-				<link rel="stylesheet" href="./src/slick/slick-theme.css" />
-				<!--Подключаем скрипт слайдера-->
-				<script src="./src/slick/slick.min.js"></script>
-					<!--Подключаем скрипт WOW js-->
-			<script src="./src/script/wow.min.js"></script>
-			<script src="./src/script/jquery.maskedinput.min.js"></script>
-    <script src="./src/script/js.js"></script>
-  </body>
 </html>
