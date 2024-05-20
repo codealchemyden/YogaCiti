@@ -23,6 +23,13 @@ html {
 body {
   min-height: 100vh;
 }
+section {
+  margin-top: 15rem;
+}
+.section-header {
+  margin-bottom: 7rem;
+  text-align: center;
+}
 h1,
 h2,
 h3,
@@ -40,6 +47,9 @@ h2 {
 }
 h3 {
   font-size: 2.5rem;
+}
+p {
+  font-size: 2rem;
 }
 .wrap {
   background-position: center;
@@ -181,7 +191,7 @@ textarea {
 }
 /*Principal*/
 .principal {
-  margin-top: 15rem;
+  margin-top: 20rem;
 }
 .principal h2 {
   margin-bottom: 3rem;
@@ -191,9 +201,7 @@ textarea {
   text-align: center;
 }
 .features-block-title {
-  margin-bottom: 3rem;
-  font-size: 2rem;
-  font-family: 'ProximaNova_bold', sans-serif;
+  min-height: 8rem;
 }
 .features-block-subtitle {
   display: inline-block;
@@ -201,7 +209,7 @@ textarea {
   font-size: 1.6rem;
 }
 .features-img {
-  height: 7rem;
+  height: 20rem;
   margin-bottom: 6rem;
 }
 .features-img img {
@@ -214,17 +222,22 @@ textarea {
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
   z-index: 99;
-  width: 2rem;
-  height: 2rem;
+  width: 5rem;
+  height: 5rem;
   border: none;
 }
 .prev {
   left: 0;
-  background: url(../img/left_arrow.svg) center no-repeat;
+  background: url(../img/offer/left_arrow.svg) center no-repeat;
   background-size: 70%;
 }
 .next {
   right: 0;
-  background: url(../img/right_arrow.svg) center no-repeat;
+  background: url(../img/offer/right_arrow.svg) center no-repeat;
   background-size: 70%;
+}
+/*elegir*/
+.elegir-cards {
+  min-height: 21rem;
+  background-color: #0084d9;
 }
