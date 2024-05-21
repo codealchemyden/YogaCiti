@@ -374,4 +374,7 @@ textarea {
     min-height: 3rem;
     font-size: 2rem;
   }
+  .footer-icon {
+    margin-right: 2rem;
+  }
 }
