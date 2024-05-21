@@ -49,8 +49,10 @@ h2 {
 h3 {
   font-size: 2.5rem;
 }
-p {
+p,
+li {
   font-size: 2rem;
+  color: #ffffff;
 }
 .wrap {
   background-position: center;
@@ -293,6 +295,10 @@ textarea {
 .box {
   margin: 0 auto;
   width: 80%;
+}
+.reguniones-card {
+  border: none;
+  background: transparent;
 }
 /*Media*/
 @media (max-width: 1199px) {
