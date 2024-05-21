@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>YogaUnity</title>
+	<link rel="stylesheet" href="../css/bootstrap.min.css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,700&display=swap" rel="stylesheet" />
+	<link rel="stylesheet" href="../css/animate.css" />
+	<link rel="stylesheet" href="../css/style.css" />
+</head>
+
+<body>
+	<div class="wrap">
+		<div class="scroll">
+			<!-- navbar -->
+			<nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top scrolled">
+				<div class="container">
+					<a class="navbar-brand logo" href="../../index.html">YogaCiti</a>
+					<button class="navbar-toggler" name="togle-fon" type="button" data-bs-toggle="collapse"
+						data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+						aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="navigation collapse navbar-collapse align-items-center" id="navbarSupportedContent">
+						<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+							<li class="nav-item">
+								<a class="nav-link link-page active" aria-current="page" href="../../index.html">Principal</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link link-page" href="../paguinas/reuniones.html">Reuniones</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link link-page" href="../paguinas/online.html">Online</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link link-page" href="../paguinas/masters.html">Másters</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link link-page" href="../paguinas/programa.html">Рrograma</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link link-page" href="../paguinas/opiniones.html">Opiniones</a>
+							</li>
+						</ul>
+						<button class="button btn btn-success btn-lg" type="submit" data-bs-toggle="modal"
+							data-bs-target="#exampleModal">
+							Consulta
+						</button>
+					</div>
+				</div>
+			</nav>
+
+
+			<section class="contact">
+				<div class="container">
+
+					<div class="row">
+						<div class="col-xxl-6 col-xl-6 col-lg-6 offset-lg-0">
+							<div class=" mb-5 text-center">
+								<h2>¡Únete a nosotros!</h2>
+							</div>
+							<h3>Tanto si eres principiante como si llevas años practicando, en YogaCiti encontrarás todo lo que
+								necesitas para una práctica profunda y consciente. ¡Apúntate hoy mismo y descubre el mundo del yoga
+								con nosotros!</h3>
+						</div>
+						<div class="col-xxl-4 offset-xxl-2 col-xl-5 offset-xl-1 col-lg-6 offset-lg-0 col-md-8 offset-md-2">
+
+							<div class="contact-form p-5 text-center">
+								<form>
+									<h2 class="form-selection fs-1">Envía tus datos de contacto</h2>
+									<div class="mb-3">
+										<input type="text" class="form-control form-control-lg" id="exampleInputEmail1"
+											aria-describedby="emailHelp" placeholder="Su nombre" />
+									</div>
+									<div class="mb-3">
+										<input type="tel" class="form-control form-control-lg" id="exampleInputPassword1"
+											placeholder="Número de teléfono" />
+									</div>
+									<h2 class="form-selection fs-1">
+										Un mensajero que le conviene
+									</h2>
+									<div class="mb-3">
+										<select class="form-select form-select-lg" aria-label="Default select example">
+											<option value="1">WhatsApp</option>
+											<option value="2">Telegrama</option>
+											<option value="3">Viber</option>
+										</select>
+									</div>
+								</form>
+								<button type="submit" class="button button-forms btn btn-primary">
+									Dejar una solicitud
+								</button>
+							</div>
+						</div>
+
+					</div>
+
+
+				</div>
+			</section>
+			<footer class="footer mt-5">
+				<div class="container">
+					<div class="row text-center">
+						<div class="col-xl-3 offset-xl-0 col-lg-3 offset-lg-0 col-md-3 offset-md-0 col-sm-6 offset-sm-3">
+							<a class="navbar-brand logo" href="#">YogaCiti</a>
+						</div>
+						<div class="col-xl-3 offset-xl-6 col-lg-5 offset-lg-4 col-md-5 offset-md-4 col-sm-6 offset-sm-3">
+							<div class="footer-icon">
+								<a href="#"><img src="../img/whatsapp.svg" alt="whatsapp"></a>
+							</div>
+							<div class="footer-icon">
+								<a href="#"><img src="../img/telegram.svg" alt="telegram"></a>
+							</div>
+							<div class="footer-icon">
+								<a href="#"><img src="../img/viber.svg" alt="viber"></a>
+							</div>
+						</div>
+					</div>
+			</footer>
+		</div>
+
+		<!-- Vertically centered modal -->
+		<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered">
+				<div class="modal-content">
+					<div class="modal-header">
+						<div class="header-block ms-auto">
+							<h2 class="text-center fs-1" id="exampleModalLabel">
+								¿Interesado?
+							</h2>
+							<h3 class="fs-1">Envía tus datos de contacto</h3>
+						</div>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+
+					<div class="modal-body text-center">
+						<form>
+							<div class="mb-3">
+								<input type="text" class="form-control form-control-lg" id="exampleInputEmail1"
+									aria-describedby="emailHelp" placeholder="Su nombre" />
+							</div>
+							<div class="mb-3">
+								<input type="tel" class="form-control form-control-lg" id="exampleInputPassword1"
+									placeholder="Número de teléfono" />
+							</div>
+							<h2 class="form-selection fs-1">
+								Un mensajero que le conviene
+							</h2>
+							<div class="mb-3">
+								<select class="form-select form-select-lg" aria-label="Default select example">
+									<option value="1">WhatsApp</option>
+									<option value="2">Telegrama</option>
+									<option value="3">Viber</option>
+								</select>
+							</div>
+						</form>
+						<button type="submit" class="button button-forms btn btn-primary">
+							Dejar una solicitud
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+	<script src="../script/popper.min.js"></script>
+	<script src="../script/bootstrap.min.js"></script>
+	<!--Подключаем стили слайдера-->
+	<link rel="stylesheet" href="../slick/slick.css" />
+	<link rel="stylesheet" href="../slick/slick-theme.css" />
+	<!--Подключаем скрипт слайдера-->
+	<script src="../slick/slick.min.js"></script>
+	<!--Подключаем скрипт WOW js-->
+	<script src="../script/wow.min.js"></script>
+	<script src="../script/jquery.maskedinput.min.js"></script>
+	<script src="../script/js.js"></script>
+</body>
+
+</html>
