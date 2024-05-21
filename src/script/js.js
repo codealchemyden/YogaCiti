@@ -5,20 +5,20 @@ window.addEventListener('click', () => {
   document.querySelector('.navbar').classList.toggle('togle-fon');
 });
 
-/*
-const btns = document.querySelectorAll('.navbar-toggler');
-const div = document.querySelector('.navbar');
+/*Переключение nav */
+const triggerTabList = document.querySelectorAll('#myTab button')
+triggerTabList.forEach(triggerEl => {
+  const tabTrigger = new bootstrap.Tab(triggerEl)
 
-btns.forEach(btn => {
-  btn.addEventListener('click', e => {
-    div.className = '';
-    div.classList.add(e.currentTarget.name);
-  });
-});*/
-
-
+  triggerEl.addEventListener('click', event => {
+    event.preventDefault()
+    tabTrigger.show()
+  })
+})
 
 
+
+/*Настройка слайдера */
 $(document).ready(function () {
 	$(".features-slider").slick({
 		infinite: true,
@@ -47,4 +47,5 @@ $(document).ready(function () {
 		],
 	});
 });
+/*Активация библиотеки Wow */
 new WOW().init();
