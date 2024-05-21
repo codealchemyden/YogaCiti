@@ -17,6 +17,7 @@
 /*Color*/
 @bg-primary: #66f40c;
 @bg-light: #fff;
+@bg-blue: #0084d9;
 
 /*Basic setting*/
 ::-webkit-scrollbar {
@@ -115,11 +116,11 @@ p {
 /*nav bar*/
 .bg-body-tertiary {
 	transition: background-color 0.1s;
-	background-color: transparent !important;
+	background-color: @bg-blue !important;
 }
 
 .bg-body-tertiary.scrolled {
-	background-color: #0084d9 !important;
+	background-color: @bg-blue !important;
 }
 
 .navbar-collapse {
@@ -308,7 +309,7 @@ textarea {
 }
 
 .card-body {
-	min-height: 25rem;
+	min-height: 28rem;
 }
 
 /*contact*/
@@ -347,8 +348,10 @@ textarea {
 			box-shadow: -3px 4px 5px black;
 
 			&:hover {
-				transform: scale(1.1);
+				transform: scale(1.2);
 			}
 		}
 	}
 }
+
+/*Media*/

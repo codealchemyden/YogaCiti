@@ -93,7 +93,7 @@ p {
 .bg-body-tertiary {
   -webkit-transition: background-color 0.1s;
   transition: background-color 0.1s;
-  background-color: transparent !important;
+  background-color: #0084d9 !important;
 }
 .bg-body-tertiary.scrolled {
   background-color: #0084d9 !important;
@@ -249,7 +249,7 @@ textarea {
   background: linear-gradient(0deg, rgba(102, 244, 12, 0.40108543) 0%, #0084d9 100%);
 }
 .card-body {
-  min-height: 25rem;
+  min-height: 28rem;
 }
 /*contact*/
 .contact h2,
@@ -280,6 +280,7 @@ textarea {
           box-shadow: -3px 4px 5px #000000;
 }
 .footer-icon img:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
+/*Media*/

@@ -13,8 +13,8 @@ $(document).ready(function () {
 					slidesToShow: 2,
 					slidesToScroll: 2,
 					infinite: true,
-					prevArrow: '<button class="prev arrow"></button>',
-					nextArrow: '<button class="next arrow"></button>',
+					prevArrow: '<button type="button" class="prev arrow"></button>',
+					nextArrow: '<button type="button" class="next arrow"></button>',
 				},
 			},
 			{
@@ -22,8 +22,8 @@ $(document).ready(function () {
 				settings: {
 					slidesToShow: 1,
 					slidesToScroll: 1,
-					prevArrow: '<button class="prev arrow"></button>',
-					nextArrow: '<button class="next arrow"></button>',
+					prevArrow: '<button type="button" class="prev arrow"></button>',
+					nextArrow: '<button type="button" class="next arrow"></button>',
 				},
 			},
 		],
