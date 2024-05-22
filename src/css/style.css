@@ -292,9 +292,11 @@ textarea {
           transform: scale(1.2);
 }
 /*Стили страницы Reuniones*/
-.box-content {
+.box {
   margin: 0 auto;
   width: 90%;
+}
+.box-content {
   background: #4800d9;
   background: -webkit-gradient(linear, left top, right top, from(#4800d9), color-stop(48%, #9c00d9), to(rgba(72, 0, 217, 0.87167367)));
   background: linear-gradient(90deg, #4800d9 0%, #9c00d9 48%, rgba(72, 0, 217, 0.87167367) 100%);
@@ -306,6 +308,9 @@ textarea {
 .reuniones h3 {
   min-height: 4rem;
 }
+.reuniones-description {
+  min-height: 25rem;
+}
 /*Media*/
 @media (max-width: 1199px) {
   .link-page {
@@ -313,6 +318,10 @@ textarea {
   }
   section {
     margin-top: 10rem;
+  }
+  /*reuniones*/
+  .box {
+    width: 99%;
   }
 }
 @media (max-width: 991px) {
