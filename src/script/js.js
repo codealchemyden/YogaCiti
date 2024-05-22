@@ -15,8 +15,30 @@ triggerTabList.forEach(triggerEl => {
     tabTrigger.show()
   })
 })
+/*Печатающий текст */
+// init
+printText( document.getElementById( 'my-text' ) );
 
+function printText( el ){
 
+	let letterTimeout = 50
+
+	let text = el.innerHTML
+	let i = 1
+
+	print__fn() // init
+
+	function print__fn(){
+
+		if( i <= text.length ){
+			el.innerHTML = text.substr( 0, i );
+			setTimeout( arguments.callee, letterTimeout );
+		}
+
+		i++;
+	}
+
+}
 
 /*Настройка слайдера */
 $(document).ready(function () {
