@@ -292,13 +292,19 @@ textarea {
           transform: scale(1.2);
 }
 /*Стили страницы Reuniones*/
-.box {
+.box-content {
   margin: 0 auto;
-  width: 80%;
+  width: 90%;
+  background: #4800d9;
+  background: -webkit-gradient(linear, left top, right top, from(#4800d9), color-stop(48%, #9c00d9), to(rgba(72, 0, 217, 0.87167367)));
+  background: linear-gradient(90deg, #4800d9 0%, #9c00d9 48%, rgba(72, 0, 217, 0.87167367) 100%);
 }
-.reguniones-card {
+.reuniones-card {
   border: none;
   background: transparent;
+}
+.reuniones h3 {
+  min-height: 4rem;
 }
 /*Media*/
 @media (max-width: 1199px) {
